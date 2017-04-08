@@ -20,7 +20,10 @@ module.exports = {
 			{
 				test: /\.js$/,
 				loader: 'babel-loader',
-				exclude: /node_modules/
+				exclude: /node_modules/,
+				query: {
+					presets: ['es2015']
+				}
 			},
 			{
 				test: /\.css$/,
@@ -41,11 +44,11 @@ module.exports = {
 		historyApiFallback: true,
 		noInfo: true,
 		proxy: {
-          '/nxp-admin/*': {
-              target: 'http://dev.air-x.com.cn/',
-              secure: false
-          }
-        }
+			'/nxp-admin/*': {
+				target: 'http://dev.air-x.com.cn/',
+				secure: false
+			}
+		}
 	},
 	performance: {
 		hints: false

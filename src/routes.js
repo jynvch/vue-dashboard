@@ -12,7 +12,10 @@ export default [
 	{
 		path: '/Index',
 		component: Index,
-		children: [{ path: '/BackEnd', component: BackEnd },
+		children: [{
+				path: '/BackEnd',
+				component: BackEnd
+			},
 			{
 				path: '/Monitoring',
 				component: Monitoring,
