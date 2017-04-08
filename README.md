@@ -1,4 +1,4 @@
-# vue-demo
+# vue-dashboard
 
 > A Vue.js project
 
