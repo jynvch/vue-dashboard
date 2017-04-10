@@ -10,7 +10,7 @@
 							系统总览
 						</template>
 						<Menu-item name="1-1">
-							<router-link to="BackEnd">资源</router-link>
+							<router-link to="/BackEnd">资源</router-link>
 						</Menu-item>
 					</Submenu>
 					<Submenu name="2">
@@ -19,10 +19,10 @@
 							监控记录
 						</template>
 						<Menu-item name="2-1">
-							<router-link to="Monitoring/Maps">地图</router-link>
+							<router-link to="/Monitoring/Maps">地图</router-link>
 						</Menu-item>
 						<Menu-item name="2-2">
-							<router-link to="Monitoring/List">列表</router-link>
+							<router-link to="/Monitoring/List">列表</router-link>
 						</Menu-item>
 					</Submenu>
 					<Submenu name="3">
